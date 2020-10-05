@@ -1,0 +1,80 @@
+.table_style{
+    width: 350px;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-spacing: 10px;
+}
+.title{
+    font-family: 'Segoe UI Light';
+    font-size: 30px;
+}
+
+.form_row{
+    align-items: center;
+    background-color: #eeeeee;
+    border-color: #bbbbbb;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.form_row:focus-within{
+    border-color: #777777;
+}
+
+.form_input{
+    height: 0px;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    vertical-align: center;
+    width: 90%;
+    height: 30px;
+    border-width: 0px;
+    background-color: #eeeeee;
+}
+
+.form_input:focus{
+    outline-style: none;
+}
+
+.buttons{
+    margin-top: 10px;
+    background-color: #5555ff;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+    padding: 8px;
+    width:100%;
+    font-family: 'Segoe UI';
+    outline: none;
+}
+
+.buttons:active{
+    background-color: white;
+    color: #5555ff;
+}
+
+.separator{
+    height: 1px;
+    border-style: hidden;
+    background-color: #aaaaaa;
+}
+
+.sign_up_link{
+    font-family: 'Segoe UI';
+    font-size: 13px;
+}
+
+.page_title{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    text-align: center;
+}
